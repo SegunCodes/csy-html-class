@@ -11,11 +11,14 @@
     <!--  ctrl + / gives this comment tags -->
 
     <!-- HEADING TAGS  -->
-    <h1>He is a boy</h1>
+    <h1>I am the first h1</h1>
+    <h1>I am the second h1</h1>
+    <h1 style="color: chartreuse;">I am the third h1</h1>
+    <h1 class="boy" id="boy2">He is a boy</h1>
     <h2>He is a boy</h2>
-    <h3>He is a boy</h3>
+    <h3 id="boy2">He is a boy</h3>
     <h4>He is a boy</h4>
-    <h5>he is a boy</h5>
+    <h5 style="color: blue; background-color: red;">he is a boy</h5>
     <h6>he is a boy</h6>
 
     <hr>
@@ -29,9 +32,19 @@
     <a href="https://www.myserviceagent.net/" target="_blank" rel="noopener noreferrer">CLICK ME</a> 
 
     <!-- buttons -->
-    <button>
-        <a href="#">Hit the button</a>
+    <button style="background-color: brown;">
+        <a href="#"  style="color: beige;">Hit the button</a>
     </button>
+
+    <img src="img/antonio.jpg" alt="test image">
+    <audio controls>
+        <source src="img/disfruto.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <video controls>
+        <source src="img/my-workspace.mp4" type="audio/mpeg">
+    </video>
 
     <!-- lists -->
     <p>we have 2 types of <b>list</b> namely: <i>ordered</i> and <b><small>unordered</small></b> list</p>
@@ -51,5 +64,37 @@
         <li>Beans</li>
         <li>Egg</li>
     </ul>
+
+   
 </body>
 </html>
+
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }  
+    
+    h1{
+        color: aqua;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .boy{
+        color: blueviolet;
+    }
+
+    #boy2{
+        color: chocolate;
+    }
+
+    video{
+        width: 300px;
+        height: 300px;
+    }
+</style>
